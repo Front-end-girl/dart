@@ -1,4 +1,6 @@
 //求和
+import 'dart:html';
+
 int sum(int n) {
   int sum = 0;
   for (var i = 0; i <= n; i++) {
@@ -7,7 +9,7 @@ int sum(int n) {
   return sum;
 }
 
-// 带默认参数方法
+// 带默认参数方法[] 可选参数
 String defaultFunc([age, String sex = '女']) {
   print(sex);
   if (age != null) {
